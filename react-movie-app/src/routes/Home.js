@@ -17,6 +17,7 @@ function Home() {
   useEffect(() => {
     getMovies();
   }, []);
+
   return (
     <div>
       {loading ? (
